@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        #outer-div {a
+            width: 1530px;
+            height: 750px;
+            background-color: white;
+            margin: auto;
+        }
+
+        #title-div {
+            width: inherit;
+            height: 70px;
+            background-color: #cce6ff;
+        }
+
+        #logo {
+            width: 60px;
+            height: 60px;
+            background-image: url(Cars_website/pic/logo-auto.png);
+            background-size: contain;
+            margin-left: 20px;
+            margin-top: 5px;
+            float: left;
+        }
+
+        .sm {
+            width: 50px;
+            height: 50px;
+            /* border: 1px solid black; */
+            float: right;
+            margin-right: 10px;
+            margin-top: 3px;
+            border-radius: 50%;
+        }
+
+        .sm1 {
+            background-image: url(pics/Tripadvisor-logo2.jpg);
+            background-size: contain;
+        }
+
+        .sm2 {
+            background-image: url(pics/rentals.png);
+            background-size: contain;
+        }
+
+        .sm:hover {
+            transform: scale(.9);
+            transition: ease all 1s;
+            opacity: 0.8;
+        }
+
+        #menu-div {
+            width: inherit;
+            height: 49px;
+            background-color: black;
+        }
+
+        #menu-div ol {
+            list-style: none;
+            width: inherit;
+
+        }
+
+        #menu-div li {
+            float: left;
+            width: 150px;
+            background-color: white;
+            padding: 10px 25px 10px 20px;
+            border: 1px #cce6ff;
+            margin-left: 30px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        #menu-div li:hover {
+            background-color: black;
+            color: white;
+            opacity: 0.9;
+        }
+
+        #pic-div {
+            width: inherit;
+            height: 230px;
+            background-image: url(pics/Screenshot\ 2023-06-09\ 023810.png);
+        }
+
+        .title {
+            font-size: 29px;
+            margin-top: 10px;
+            float: left;
+            margin-left: 20px;
+
+        }
+
+        .title:hover {
+            text-shadow: 5px 5px 5px black;
+        }
+
+        #our-products {
+            width: inherit;
+            background-color: #cce6ff;
+            line-height: 40px;
+        }
+
+        #cards-cover {
+            width: inherit;
+            height: 290px;
+            background-color: #eee6ff;
+            padding-top: 10px;
+        }
+
+        #inner-cover {
+            width: 800px;
+            height: 280px;
+            background-color: white;
+            margin: auto;
+        }
+
+        .card {
+            width: 240px;
+            height: 250px;
+            float: left;
+            background-color: #cce6ff;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer-div">
+        <div id="title-div">
+            <div id="logo"></div>
+            <div class="title">
+                AutoHub.com
+            </div>
+            <div class="sm sm1"></div>
+            <div class="sm sm2"></div>
+        </div>
+        <div id="menu-div">
+            <ol>
+                <li>Home</li>
+                <li>Our Products</li>
+                <li>Reach Us</li>
+                <li>Services</li>
+                <li>Our Team</li>
+            </ol>
+        </div>
+        <div id="pic-div"></div>
+        <div id="our-products">
+            <center>
+                <h2>Our Products</h2>
+            </center>
+        </div>
+
+        <div id="cards-cover">
+            <div id="inner-cover">
+                <div class="card" style="margin-left:25px"><img src="pics/restraunts.jpg" alt="" height="180"
+                        width="240"></div>
+                <div class="card" style="margin-left: 10px; margin-right: 10px ;"><img src="pics/rentals2.png" alt=""
+                        height="180" width="240"></div>
+                <div class="card"><img src="pics/hotels.jpg" alt="" height="180" width="240"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

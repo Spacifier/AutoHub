@@ -1,0 +1,362 @@
+#heading {
+    background-color: black;
+    float: left;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+#logo {
+    width: 90px;
+    height: 50px;
+    margin: auto;
+    margin-top: 14px;
+    float: left;
+}
+
+#name {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    float: left;
+    margin: 24px 0px 10px 7px;
+    font-size: 27px;
+}
+
+#login {
+    float: right;
+    height: 27px;
+    width: 92px;
+    background-color: white;
+    color: black;
+    margin: 19px 15px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 7px;
+    font-size: 18px;
+    font-family: monospace;
+    border-radius: 16px 16px 16px 16px;
+}
+
+#login:hover {
+    transition: ease all 0.2s;
+    opacity: 0.65;
+}
+
+#login:active {
+    transform: scale(0.94);
+    transition: ease all 0.2s;
+}
+
+#help {
+    color: white;
+    float: right;
+    font-size: 25px;
+    margin: 20px 10px;
+}
+
+#help:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease all 200ms;
+}
+
+#help:active {
+    color: #999999;
+    transform: translateZ(2px);
+}
+
+#like {
+    color: white;
+    float: right;
+    font-size: 25px;
+    margin: 20px 10px;
+}
+
+#like:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease all 200ms;
+}
+
+#like:active {
+    color: red;
+    transform: translateZ(10px);
+}
+
+* {
+    margin: 0px;
+}
+
+#menu {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    float: left;
+    position: fixed;
+    top: 80px;
+    z-index: 2;
+}
+
+#menu ol {
+    float: left;
+    list-style: none;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#menu li {
+    float: left;
+    background-color: black;
+    height: inherit;
+    padding: 0px 30px 10px 20px;
+    border: .5px black solid;
+    margin-left: 100px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#menu li:hover {
+    background-color: black;
+    color: white;
+    border-bottom: 1px white solid;
+    transition-delay: 400ms;
+    transition: ease all 500ms;
+    opacity: 0.8;
+
+}
+
+#menu li:active {
+    transform: scale(0.9);
+    transition: ease all 200ms;
+    box-shadow: 0px 0px 5px 10px #1a1a1a inset;
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.display {
+    background-image: url(../Cars_website/pic/208036.jpg);
+    width: 100%;
+    height: 1091px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    top: 130px;
+}
+
+#explore {
+    color: white;
+    position: absolute;
+    bottom: 170;
+    left: 100;
+    width: 200px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#explore:hover {
+    background-color: white;
+    color: #333333;
+}
+
+#text-1 {
+    color: white;
+    position: absolute;
+    bottom: 60;
+    left: 100;
+    font-size: 93px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#lambo {
+    background-image: url(../Cars_website/pic/Screenshot\ 2023-06-18\ 162942.png);
+    width: 100%;
+    height: 600px;
+    float: left;
+    margin-top: 130px;
+}
+
+#text-2 {
+    color: #8c8c8c;
+    font-size: 78px;
+    margin: 400px 0px 0px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bugg {
+    background-image: url(../Cars_website/pic/bugg.jpg);
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+#text-3 {
+    color: #8c8c8c;
+    font-size: 78px;
+    margin: 500px 0px 0px 1100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#toyota {
+    background-image: url(../Cars_website/pic/toyotaa.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+
+#text-4 {
+    color: white;
+    font-size: 78px;
+    margin: 430px 0px 0px 1450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#popular {
+    height: 390px;
+    width: 100%;
+    background-color: white;
+    color: white;
+    float: left;
+    font-size: 89px;
+    margin: 30px 0px 0px 0px;
+    padding-left: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../Cars_website/pic/manu.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cars{
+    width: 100%;
+    height: 1100px;
+    float: left;
+}
+#gtr{
+    width: 50%;
+    height: 550px;
+    float: left;
+    background-image: url(../Cars_website/pic/gtrr.jpg);
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#text-5{
+    float: left;
+    margin: 30px 0px 0px 19px;
+    color: white;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price-gtr{
+    width: 160px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    color: white;
+    margin: 430px 30px 10px 0px;
+}
+.price-gtr:hover{
+    background-image: url(../Cars_website/pic/gtr-price.jpg);
+    background-size: contain;
+    font-size: 0;
+}
+#supra{
+    width: 50%;
+    height: 550px;
+    float: left;
+    background-image: url(../Cars_website/pic/supraa.jpg);
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.price-supra{
+    width: 160px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    color: white;
+    margin: 430px 30px 10px 0px;
+}
+.price-supra:hover{
+    background-image: url(../Cars_website/pic/supra-price.jpg);
+    background-size: contain;
+    font-size: 0;
+}
+#hellcat{
+    width: 50%;
+    height: 550px;
+    float: left;
+    background-image: url(../Cars_website/pic/Dodge-Challenger-facts-_-Cover-14-12-22.jpg);
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.price-hellcat{
+    width: 160px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    color: white;
+    margin: 330px 30px 10px 0px;
+}
+.price-hellcat:hover{
+    background-image: url(../Cars_website/pic/hellcat-price.jpg);
+    background-size: contain;
+    font-size: 0;
+}
+#porsche{
+    width: 50%;
+    height: 550px;
+    float: left;
+    background-image: url(../Cars_website/pic/porschee-1.jpg);
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.price-porsche{
+    width: 160px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    color: white;
+    margin: 330px 30px 10px 0px;
+}
+.price-porsche:hover{
+    background-image: url(../Cars_website/pic/porsche-price.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 0;
+    background-color:white ;
+}
+
